@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Eastern Taste Restaurant</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Eastern Taste</h1>
+        <p>ith years of experience, we bring together the freshest ingredients to leave unforgettable flavors on your palate. Combining traditional recipes with modern presentation, we have prepared a unique experience for you. Our chef wishes you <em lang="fr">Bon appétit!</em> as they present the menu.</p>
+        <div>
+            <h2>
+                <i class="fa-solid fa-utensils"></i>
+                <span>Special Menu</span>
+                <i class="fa-solid fa-wine-glass"></i>
+            </h2>
+            <div class="tableResponsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dish Name</th>
+                            <th>Ingredients</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-fire"></i>
+                                Spicy Kebab
+                                <span>Chef's Choice</span>
+                            </td>
+                            <td>Lamb, special spices, roasted pepper</td>
+                            <td>350</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-leaf"></i>
+                                Olive Oil Artichoke
+                            </td>
+                            <td>Artichoke heart, peas, dill</td>
+                            <td>180</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-fish"></i>
+                                Baked Salmon
+                            </td>
+                            <td>Norwegian salmon, lemon sauce</td>
+                            <td>420</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <ul>
+                <li>All our meats are fresh and locally sourced.</li>
+                <li>Gluten-free and vegetarian options are available.</li>
+                <li>Drinks are not included in the price.</li>
+            </ul>
+        </div>
+        <div>
+            <h2>
+                <i class="fa-solid fa-utensils"></i>
+                <span>Book a Table</span>
+                <i class="fa-solid fa-wine-glass"></i>
+            </h2>
+            <a href="#">Read Rules</a>
+            <form action="#" method="post">
+                <div class="formGroup">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" placeholder="Enter name" id="name" required>
+                </div>
+                <div class="formGroup">
+                    <label for="ePosta">Email Address (Invalid entry turns red):</label><br>
+                    <input type="email" id="ePosta" placeholder="example@gmail.com" required>
+                </div>
+                <div class="formGroup">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">I request a non-smoking area</label>
+                </div>
+                <div class="formGroup">
+                    <button type="submit">Book Reservation Now</button>
+                    <button type="submit" disabled>View Past Reservations</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
